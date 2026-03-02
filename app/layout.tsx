@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   description: "The official digital repository for Hindi Qurbana Songs and Karaoke Tracks of the Malankara Orthodox Syrian Church.",
   keywords: ["Hindi Qurbana", "Bibliano Music", "Malankara Orthodox", "Syrian Church", "Christian Karaoke"],
   authors: [{ name: "Bibliano Music" }],
+  verification: {
+    google: "JvGWO80QfwQDINnxO6qZH46lKVumUlzSkY6my__hdIE",
+  },
   openGraph: {
     title: "Bibliano Music Vault",
     description: "Digital library for Malankara Orthodox Syrian Church Hindi Qurbana.",
