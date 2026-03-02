@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   keywords: [
     "Bibliano Music", "Robin Thomas", "Hindi Qurbana", "Bombay Diocese", 
     "H.G. Geevarghese Mar Coorilos", "Malankara Orthodox Syrian Church", 
-    "MOSC Hindi Songs", "Christian Karaoke Hindi"
+    "MOSC Hindi Songs", "Christian Karaoke Hindi", "Malayalam Christian Music", "English Hymns"
   ],
   authors: [{ name: "Robin Thomas" }],
   creator: "Robin Thomas",
@@ -34,6 +34,7 @@ export const metadata: Metadata = {
     description: "A personal mission by Robin Thomas to preserve Hindi liturgical music, blessed by the Metropolitan of the Bombay Diocese.",
     type: "website",
     siteName: "Bibliano Music",
+    url: "https://bibliano-music-hindi-qurbana-mosc.netlify.app",
   },
 };
 
@@ -42,6 +43,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Structured Data for Google Search
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "CreativeWorkSeries",
